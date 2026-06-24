@@ -14,10 +14,10 @@ function onCreatePromise(event) {
   const promise = new Promise((resolve, reject) => {
     setTimeout(() => {
       if (chooseState === 'fulfilled') {
-        return resolve('fulfilled');
+        return resolve(delay);
       }
       if (chooseState === 'rejected') {
-        return reject('rejected');
+        return reject(delay);
       }
     }, delay);
   });

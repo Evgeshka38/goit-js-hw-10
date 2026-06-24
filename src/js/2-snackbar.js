@@ -2,7 +2,7 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import okIcon from '../img/ok.svg';
 import ErrIcon from '../img/error-icon.svg';
-const formEl = document.querySelector('.form-promise');
+const formEl = document.querySelector('.form');
 
 formEl.addEventListener('submit', onCreatePromise);
 

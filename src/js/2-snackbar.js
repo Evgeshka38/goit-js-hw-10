@@ -26,7 +26,7 @@ function onCreatePromise(event) {
         message: `Fulfilled promise in ${delay}ms`,
         messageColor: '#fff',
         color: '#59a10d',
-        iconUrl: '/img/ok.svg',
+        iconUrl: '../img/ok.svg',
         position: 'topRight',
       });
       console.log(`✅ Fulfilled promise in ${delay}ms`);
@@ -36,7 +36,7 @@ function onCreatePromise(event) {
         message: `Rejected promise in ${delay}ms`,
         messageColor: '#fff',
         color: '#EF4040',
-        iconUrl: '/img/error-icon.svg',
+        iconUrl: '../img/error-icon.svg',
         position: 'topRight',
       });
       console.log(`❌ Rejected promise in ${delay}ms`);
